@@ -78,7 +78,10 @@ while True:
         
    
 #    cv2.polylines(frame,[np.array(area1,np.int32)],True,(0,0,255),2)
+#     cvzone.putTextRect(frame,f'area1',(613,232),1,1)
 #    cv2.polylines(frame,[np.array(area2,np.int32)],True,(0,0,255),2)
+#     cvzone.putTextRect(frame,f'area2',(527,396),1,1)
+
     
     cv2.imshow("RGB", frame)
     if cv2.waitKey(1)&0xFF==27:
