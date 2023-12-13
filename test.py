@@ -33,8 +33,8 @@ class_list = data.split("\n")
 
 
 count=0
-area1=[(613,232),(487,363),(524,391),(643,254)]
-area2=[(628,243),(503,375),(524,391),(643,254)]
+area1=[(715,273),(688,272),(737,487),(783,484)]
+area2=[(701,272),(688,272),(737,487),(758,486)]
 pin={}
 enter=[]
 while True:    
@@ -78,9 +78,8 @@ while True:
         
    
 #    cv2.polylines(frame,[np.array(area1,np.int32)],True,(0,0,255),2)
-#     cvzone.putTextRect(frame,f'area1',(613,232),1,1)
 #    cv2.polylines(frame,[np.array(area2,np.int32)],True,(0,0,255),2)
-#     cvzone.putTextRect(frame,f'area2',(527,396),1,1)
+
 
     
     cv2.imshow("RGB", frame)
